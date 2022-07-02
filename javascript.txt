@@ -1,0 +1,75 @@
+also remove image=
+Apply=Применить
+Are you sure=Вы уверены?
+Cancel=Отмена
+checking=
+Completely REMOVE=Полностью УДАЛИТЬ
+Console=
+day=день
+days=дней
+disk image and definition=
+Disks=
+Donate=
+Done=
+Edit=
+Execution error=
+Force Stop=
+Hibernate=
+Log for=Log for:
+log=журнал
+Logs=Журналы
+More Info=
+No=Нет
+OK=
+Ok=
+Pause=
+Proceed=Продолжить
+Project Page=
+Read Me First=
+Remove container=
+Remove definition=
+Remove image=
+Remove VM=
+Remove=
+Restart=
+Resume=
+Start=
+Stop=
+Support=
+Update container=Обновить контейнер
+Update=Обновить
+Updating all Containers=
+Updating the container=Обновление контейнера
+VNC Remote=
+WebUI=
+Yes, delete it=Да, удалить!
+Yes, update it=Да, обновить!
+Yes=Да
+
+; footer messages
+Array Copying=
+Array Clearing=
+Array Starting=
+Array Stopping=
+Mounting disks=
+Retry unmounting user shares=Retry unmounting user share(s)
+Spinning up all drives=
+Stale configuration=
+Starting services=
+Stopping services=
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
+Unmounting disks=
+Autostart disabled=
+Missing encryption key=
+Opening encrypted volumes=
+
+; docker variables
+Container Path=
+Container Port=
+Container Variable=
+Container Label=
+Container Device=
+
+; Note: June 11, 2022 - 51 missing translations
