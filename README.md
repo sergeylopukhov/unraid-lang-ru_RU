@@ -1,5 +1,13 @@
 # lang-ru_RU
 
+### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ УСТАНОВИТЬ ЭТОТ ПЕРЕВОД НА СВОЙ UNRAID
+
+1. Зайдите на свой сервер Unraid
+2. Перейдите в Tools -> Language
+3. В поле Enter URL of language pack XML file введите: https://raw.githubusercontent.com/sergeylopukhov/unraid-lang-ru_RU/master/limetech/lang-ru_RU.xml
+4. Нажмите INSTALL
+<img width="1048" alt="Screenshot 2022-07-04 в 12 50 17" src="https://user-images.githubusercontent.com/65507155/177130210-7a2e10a7-e93e-402b-a67f-59ab537e7f59.png">
+
 ### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ ХОТИТЕ СДЕЛАТЬ СВОЙ ПЕРЕВОД НА ДРУГОЙ ЯЗЫК
 
 В этом хранилище содержится шестнадцать основных текстовых файлов, каждый с собственным разделом переводов:
