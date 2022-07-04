@@ -1,0 +1,22 @@
+Process=Процесс
+Kill Process=Убить процессы
+Process ID=ID процесса
+Open Files=Откройте файлы
+Files that may prevent shutdown=Файлы, которые могут помешать отключению
+File Name and Path=Имя файла и путь
+An entry for bash means you have a terminal session open with the working directory on the array=Запись для bash означает, что у вас открыт терминальный сеанс с рабочим каталогом в массиве
+If smbd is listed, it means that another computer has a samba share mounted=Если smbd указан в списке, это означает, что на другом компьютере смонтирована общая папка samba
+Files open by Samba usually wont prevent array shutdown=Файлы, открытые с помощью Samba обычно не предотвращают возникновение массива
+No open files=Нет открытых файлов
+Kill=Вбить
+Command timed out=Время ожидания команды истекло
+Cannot get list of open files=Не удается получить список открытых файлов
+;
+; Help
+;
+:open_files_help_plug:
+> Нажмите кнопку «Убить», чтобы остановить процесс, который удерживает файлы открытыми.
+> Откроется диалоговое окно, показывающее ход завершения процесса, который удерживает эти файлы открытыми.
+>
+>Нажмите «Программа», идентификатор процесса или «Имя и путь файла», чтобы изменить порядок сортировки.
+:end
