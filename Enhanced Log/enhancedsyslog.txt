@@ -1,0 +1,4 @@
+Enhanced System Log=расширенный системный журнал
+Minor Issues=незначительные проблемы
+File System=Файловая Система
+Drive Related=Диск связанных
