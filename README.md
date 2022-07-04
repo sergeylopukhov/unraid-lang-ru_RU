@@ -8,6 +8,9 @@
 4. Нажмите INSTALL
 <img width="1048" alt="Screenshot 2022-07-04 в 12 50 17" src="https://user-images.githubusercontent.com/65507155/177130210-7a2e10a7-e93e-402b-a67f-59ab537e7f59.png">
 
+5. Нажмите DONE <img width="973" alt="Screenshot 2022-07-04 в 12 52 21" src="https://user-images.githubusercontent.com/65507155/177130540-c9c878d5-c85a-4118-b999-b8b6cd2a2432.png">
+6. 
+
 ### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ ХОТИТЕ СДЕЛАТЬ СВОЙ ПЕРЕВОД НА ДРУГОЙ ЯЗЫК
 
 В этом хранилище содержится шестнадцать основных текстовых файлов, каждый с собственным разделом переводов:
