@@ -7,13 +7,12 @@
 1. Зайдите на свой сервер Unraid
 2. Перейдите в Tools -> Language<img width="1217" alt="Screenshot 2022-07-04 в 12 59 01" src="https://user-images.githubusercontent.com/65507155/177131662-f0004fea-cdf2-4f37-a5f1-6fbf8aab93a1.png">
 
-3. В поле Enter URL of language pack XML file введите: https://raw.githubusercontent.com/sergeylopukhov/unraid-lang-ru_RU/master/limetech/lang-ru_RU.xml
-4. Нажмите INSTALL <img width="1048" alt="Screenshot 2022-07-04 в 12 50 17" src="https://user-images.githubusercontent.com/65507155/177130210-7a2e10a7-e93e-402b-a67f-59ab537e7f59.png">
-5. Нажмите DONE <img width="973" alt="Screenshot 2022-07-04 в 12 52 21" src="https://user-images.githubusercontent.com/65507155/177130540-c9c878d5-c85a-4118-b999-b8b6cd2a2432.png">
-6. Перейдите в SETTINGS -> Display Settings <img width="1784" alt="Screenshot 2022-07-04 в 12 55 13" src="https://user-images.githubusercontent.com/65507155/177131039-133ae810-f2d3-4b76-ad20-a9705863dbdb.png">
-7. Выберите в Language: Россия (Russian) <img width="1062" alt="Screenshot 2022-07-04 в 12 56 35" src="https://user-images.githubusercontent.com/65507155/177131379-e52ebb82-7a45-446b-99bf-bd78a1aaa7cc.png">
-8. Опуститесь вниз и нажмите APPLY <img width="970" alt="Screenshot 2022-07-04 в 13 12 11" src="https://user-images.githubusercontent.com/65507155/177133996-21a80dc9-2e2a-4357-a4c4-534de55ae0c8.png">
-9. Русский язык установлен, наслаждайтесь
+3. В поле Enter URL of language pack XML file введите: https://raw.githubusercontent.com/sergeylopukhov/unraid-lang-ru_RU/master/limetech/lang-ru_RU.xml и нажмите INSTALL <img width="1048" alt="Screenshot 2022-07-04 в 12 50 17" src="https://user-images.githubusercontent.com/65507155/177130210-7a2e10a7-e93e-402b-a67f-59ab537e7f59.png">
+4. Нажмите DONE <img width="973" alt="Screenshot 2022-07-04 в 12 52 21" src="https://user-images.githubusercontent.com/65507155/177130540-c9c878d5-c85a-4118-b999-b8b6cd2a2432.png">
+5. Перейдите в SETTINGS -> Display Settings <img width="1784" alt="Screenshot 2022-07-04 в 12 55 13" src="https://user-images.githubusercontent.com/65507155/177131039-133ae810-f2d3-4b76-ad20-a9705863dbdb.png">
+6. Выберите в Language: Россия (Russian) <img width="1062" alt="Screenshot 2022-07-04 в 12 56 35" src="https://user-images.githubusercontent.com/65507155/177131379-e52ebb82-7a45-446b-99bf-bd78a1aaa7cc.png">
+7. Опуститесь вниз и нажмите APPLY <img width="970" alt="Screenshot 2022-07-04 в 13 12 11" src="https://user-images.githubusercontent.com/65507155/177133996-21a80dc9-2e2a-4357-a4c4-534de55ae0c8.png">
+8. Русский язык установлен, наслаждайтесь
 
 ### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ ХОТИТЕ СДЕЛАТЬ СВОЙ ПЕРЕВОД НА ДРУГОЙ ЯЗЫК
 
