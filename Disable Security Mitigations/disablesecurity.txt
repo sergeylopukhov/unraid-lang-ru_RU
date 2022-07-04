@@ -1,0 +1,11 @@
+Disabling Spectre, Meltdown and Zombieload MDS mitigations may improve your CPU speed But these are security risks for certain workloads, and disabling the mitigations is purely all at your own risk=Отключение средств смягчения Spectre, Meltdown и Zombieload MDS может повысить скорость вашего процессора. Но это риски для безопасности для определенных рабочих нагрузок, и выключение смягчения можно исключительно на ваш собственный риск
+Mitigations currently disabled=Смягчение сейчас отключены
+Mitigations currently enabled=Смягчение пока включен
+Status=Статус
+will be updated after rebooting the server=будет обновлен после перезагрузки сервера
+Enable Mitigations=Включить смягчение
+Disable Mitigations=Отключить смягчение
+Disable Security Mitigations A Reboot Is Required For Changes To Take Effect=Отключить меры безопасности. Чтобы изменения вступили в силу, требуется перезагрузка
+A Reboot Is Required For Changes To Take Effect=Чтобы изменения вступили в силу, требуется перезагрузка
+Mitigations will be enabled after a reboot=Смягчения станут включенными после перезагрузки
+Mitigations will be disabled after a reboot=Смягчение будет отключено после перезагрузки
