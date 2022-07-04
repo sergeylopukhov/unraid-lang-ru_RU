@@ -1,122 +1,94 @@
 # lang-ru_RU
 
-### READ THIS WHEN YOU WANT TO MAKE TRANSLATIONS TO ANOTHER LANGUAGE
+### ПРОЧИТАЙТЕ ЭТО, КОГДА ВЫ ЗАХОТИТЕ СДЕЛАТЬ СВОЙ ПЕРЕВОД НА ДРУГОЙ ЯЗЫК
 
-There are sixteen main text files included in this repository, each with their own section of translations:
+В этом хранилище содержится шестнадцать основных текстовых файлов, каждый с собственным разделом переводов:
 
-- translations.txt -- these are general translations and loaded each time
-- helptext.txt     -- these are all help text sections and loaded each time
-- dashboard.txt    -- these are translations for the dashboard section
-- main.txt         -- these are translations for the main section
-- shares.txt       -- these are translations for the shares section
-- users.txt        -- these are translations for the users section
-- settings.txt     -- these are translations for the settings section
-- plugins.txt      -- these are translations for the plugins section
-- docker.txt       -- these are translations for the docker section
-- vms.txt          -- these are translations for the vms section
-- tools.txt        -- these are translations for the tools section
-- javascript.txt   -- these are translations for javascript scripts
-- scripts.txt      -- these are translations for local scripts
-- apps.txt         -- these are translations for the CA section (in Community Apps folder)
-- ca_settings      -- these are translations for the CA settings (in Community Apps folder)
-- javascript.ca.txt-- these are translations for the CA javascript (in Community Apps folder)
+- translations.txt -- это общие переводы, которые загружаются каждый раз
+- helptext.txt -- это все разделы справочного текста, которые загружаются каждый раз
+- dashboard.txt -- это переводы для раздела Панели инструментов
+- main.txt -- это переводы основного раздела
+- shares.txt -- это переводы раздела shares
+- users.txt -- это переводы для раздела пользователей
+- settings.txt -- это переводы раздела настроек
+- plugins.txt -- это переводы раздела плагинов
+- docker.txt -- это переводы раздела docker
+- vms.txt -- это переводы раздела vms
+- tools.txt -- это переводы раздела инструментов
+- javascript.txt -- это переводы для сценариев javascript
+- scripts.txt -- это переводы для локальных скриптов
+- apps.txt -- это переводы для раздела CA (в папке Community Apps)
+- ca_settings -- это переводы настроек ЦС (в папке Community Apps)
+- javascript.ca.txt -- это переводы для CA javascript (в папке Community Apps)
+Все имена файлов пишутся в нижнем регистре и должны быть включены в репозиторий, чтобы переводы были полными.
 
-All file names are in lowercase and should be included in the repository to make the translations complete.
+Удаление определенного файла означает, что переводы для этого раздела не будут доступны, а графический интерфейс будет отображать текст на оригинальном английском языке.
 
-Removing a particular file, means no translations will be available for that section and the GUI will display text in original English.
+### ПЕРЕВОДЫ
 
-### TRANSLATIONS
+Каждый текстовый файл содержит обычные текстовые строки, хранящиеся в формате UTF-8 с окончаниями строк Linux. Используйте текстовый редактор, который поддерживает формат UTF-8 и linux, например notepad++
 
-Each text file contains regular text strings stored in UTF-8 format with linux line-endings.
-Use a text editor which supports UTF-8 and linux format, like [notepad++](https://notepad-plus-plus.org/downloads)
+Содержимое каждого текстового файла разделено на две части
 
-The content of each text file is separated into two parts
+### ЧАСТЬ 1
 
-### PART 1
+Это однострочные записи в формате:
 
-These are single line entries which are in the format:
+`оригинал английского текста=переведенный иностранный текст`
 
-`original English text=translated Foreign text`
+Измените текст после знака равенства (=) и оставьте оригинальный английский текст слева. Удаление строки или пробел перевода после знака равенства приводит к тому, что графический интерфейс отображает эту строку с оригинальным английским текстом.
 
-Only modify the text after the equal sign(=) and leave the original English text at the left untouched.
-Removing a line or omitting a translation after the equal sign, results in the GUI displaying this line with the original English text.
+Переведенный текст может содержать специальные символы», такие как косые черты, круглые скобки или скобки, которые не входят в основной текст, но которые используются для отображения текста соответственно. напр.
 
-The translated text may have 'special characters', such as slashes, parenthesis or brackets which are not included in the key text,
-but which are used to display text accordingly. E.g.
+`Параметры см. Help=Options (см. справку)`
 
-`Options see Help=Options (see Help)`
+Символы \* и \*\* используются для отображения текста курсивом и жирным шрифтом соответственно. напр.
 
-The characters \* and \*\* are used to display text in italics and bold respectively. E.g.
+`Массив должен быть остановлен для изменения=массив должен быть **остановлен** для изменения`
 
-`Array must be Stopped to change=Array must be **Stopped** to change`
+Рекомендуется делать переводы на раздел, то есть по одному файлу за раз, и проверять правильность переводов в графическом интерфейсе. прежде чем перейти к следующему разделу.
 
-It is recommended to make translations per section, that is one file at the time, and verify the correctness of the translations in the GUI
-before proceeding with the next section.
-
-Keep in mind the length of the translations and try to make them similar length as the original text and avoid space issues in the GUI.
+Помните о длине переводов и старайтесь сделать их такой же длиной, как и оригинальный текст, и избегайте проблем с пространством в графическом интерфейсе.
 
 ### PART 2
 
-These are multi line entries used to translate multiple lines at once.
-Multi line translations have a unique opening and closing tag:
+Это многострочные записи, используемые для одновременного перевода нескольких строк. Многострочный перевод имеет уникальный открывающий и закрывающий тег:
 
-**:unique_tag_name_plug:** - unique opening tag used for any multi line text section
+**:unique_tag_name_plug:** - уникальный начальный тег, который используется для любого многострочного текстового раздела
 
-**:end**    - closing tag
+**:end**    - закрывающий тег
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+Не удаляйте и не изменяйте эти теги, а переводите только текст между начальным и закрывающим тегами!
 
-### HELP TEXT
+### ФАЙЛ HELP
 
-All help text of the GUI is stored in a single file *helptext.txt*.
+Весь текст справки GUI хранится в одном файле *helptext.txt*.
 
-This file has multiple help text sections. Each section is enclosed by a unique opening tag and corresponding closing tag.
+Этот файл имеет несколько разделов справочного текста. Каждый раздел заключен уникальным открывающим тегом и соответствующим закрывающим тегом.
 
-**:unique_tag_name_help:** - unique opening tag used for a help text section
+**:unique_tag_name_help:** - уникальный начальный тег, используемый для текстового раздела справки
 
-**:end**    - corresponding closing tag
+**:end**    - соответствующий закрывающий тег
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+Не удаляйте и не изменяйте эти теги, а переводите только текст между начальным и закрывающим тегами!
 
-Be aware that Markdown styling syntax is used, this must be preserved.
+Имейте в виду, что используется синтаксис стиля Markdown, его нужно сохранить.
 
-### LOCAL TESTING
+### ЛОКАЛЬНОЕ ТЕСТИРОВАНИЕ
 
-Once the translations are complete and you want to test locally the (intermediate) results, the text files need to be zipped into a single ZIP file.
-Give the ZIP file the name of your language, e.g. French.zip.
+Когда переводы завершены, и вы хотите локально проверить (промежуточные) результаты, текстовые файлы нужно заархивировать в один ZIP-файл. Дайте файлу ZIP название вашего языка, напр. French.zip.
 
-In the GUI go to: Tools -> webGUI -> Language (switch to Developer view)
+В графическом интерфейсе перейдите к: Инструменты -> Языки (перейдите к просмотру разработчика)
 
-- By default only the English language is installed (built-in)
-- Choose the ZIP file you have created earlier as the source file
-- If the language name is recognized, it will be automatically selected, otherwise chose the name of the language from the dropdown menu to install.
-- Click on "Upload" will add your translations to the GUI under the selected language name
+- По умолчанию устанавливается только английский язык (встроенный)
+- Выберите файл ZIP, который вы создали ранее, как исходный файл
+- Если название языка распознается, оно будет выбрано автоматически, в противном случае выберите название языка из раскрывающегося меню для установки.
+- Нажмите «Загрузить», чтобы добавить ваши переводы графического интерфейса под названием выбранного языка
 
-NOTE: If your language is not available from the dropdown menu, please make a request on the [Unraid forum](https://forums.unraid.net/forum/75-multi-language-section/)
+NOTE: Если ваш язык недоступен в раскрывающемся меню, отправьте запрос на форум [Unraid forum](https://forums.unraid.net/forum/75-multi-language-section/)
 
-Now your language is available for local testing!
+Теперь ваш язык доступен для локального тестирования!
 
-In the GUI go to: Settings -> Display Settings -> Language
+В графическом интерфейсе перейдите к: Настройки -> Настройки дисплея -> Язык
 
-- Select the preferred language from the dropdown menu. Note that only the available language choices are displayed here.
-
-### GITHUB
-
-A language repository will be made available at [Github](https://github.com/unraid), where translators can create Pull Requests (PR) and submit their work.
-
-Once you are satisfied with your results, use Github (an account is required) to fork the respective language repository and create a PR with your modifications.
-
-Limetech will review this and merge your work when approved.
-
-### UPDATES
-
-When updated source text files in English become available in the future, these updates will be made available through Github.
-
-Translators can use the Github system to see which changes are made and update their translations accordingly.
-
-### CREDITS
-
-Your efforts are much welcomed and to show our appreciation, your name and language are credited on the Credits page under Tools in the GUI.
-Please let us know which credentials to use.
-
-Thank you very much!
+- Выберите желаемый язык из раскрывающегося меню. Обратите внимание, что здесь отображаются только доступные языковые варианты.
