@@ -3,13 +3,12 @@
 
 <img width="1748" alt="Screenshot 2022-07-04 в 13 25 46" src="https://user-images.githubusercontent.com/65507155/177136454-233037eb-63fc-4fdb-a970-270bc2bac868.png">
 
-### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ УСТАНОВИТЬ ЭТОТ ПЕРЕВОД НА СВОЙ UNRAID
+### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ ХОТИТЕ УСТАНОВИТЬ ЭТОТ ПЕРЕВОД НА СВОЙ UNRAID
 
 ❗❗❗ПРИ УСТАНОВКЕ ЭТИМ МЕТОДОМ ПЕРЕВОД НЕ СЛЕТАЕТ ПРИ ПЕРЕЗАГРУЗКЕ СЕРВЕРА❗❗❗
 
 1. Зайдите на свой сервер Unraid
 2. Перейдите в Tools -> Language<img width="1217" alt="Screenshot 2022-07-04 в 12 59 01" src="https://user-images.githubusercontent.com/65507155/177131662-f0004fea-cdf2-4f37-a5f1-6fbf8aab93a1.png">
-
 3. В поле Enter URL of language pack XML file введите: `https://raw.githubusercontent.com/sergeylopukhov/unraid-lang-ru_RU/master/limetech/lang-ru_RU.xml` и нажмите INSTALL <img width="1048" alt="Screenshot 2022-07-04 в 12 50 17" src="https://user-images.githubusercontent.com/65507155/177130210-7a2e10a7-e93e-402b-a67f-59ab537e7f59.png">
 4. Нажмите DONE <img width="973" alt="Screenshot 2022-07-04 в 12 52 21" src="https://user-images.githubusercontent.com/65507155/177130540-c9c878d5-c85a-4118-b999-b8b6cd2a2432.png">
 5. Перейдите в SETTINGS -> Display Settings <img width="1784" alt="Screenshot 2022-07-04 в 12 55 13" src="https://user-images.githubusercontent.com/65507155/177131039-133ae810-f2d3-4b76-ad20-a9705863dbdb.png">
