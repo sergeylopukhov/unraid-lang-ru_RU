@@ -1,4 +1,7 @@
 # lang-ru_RU
+### ПРИМЕР ПЕРЕВОДА UNRAID ВКЛАДКА SETTINGS
+
+<img width="1748" alt="Screenshot 2022-07-04 в 13 25 46" src="https://user-images.githubusercontent.com/65507155/177136454-233037eb-63fc-4fdb-a970-270bc2bac868.png">
 
 ### ПРОЧИТАЙТЕ ЭТО, ЕСЛИ УСТАНОВИТЬ ЭТОТ ПЕРЕВОД НА СВОЙ UNRAID
 =
