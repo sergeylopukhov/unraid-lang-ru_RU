@@ -1,0 +1,22 @@
+Hotplug USB=Горячее подключение USB
+Running VMs=Запуск VMs
+Attach=Прикрепить
+Attach the USB device to the selected VM=Подключите USB-устройство к выбранной VM
+Detach=Отсоединить
+Refresh this page=Обновить страницу
+Detach the USB device from the selected VM=Отсоедините USB-устройство от выбранной VM
+Result=Результат
+Result of attachdetach operation=Результат операции отсоединения
+Note=Примечания
+Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=Некоторые USB-устройства требуют отсоединения и подключения несколько раз, чтобы их правильно обнаружили VMs
+If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=Если вы отсоединили USB-устройство, когда оно было подключено к VM, вам придется отсоединить его, а затем снова подключиться
+Detaching Please wait=Отсоединение пожалуйста, подождите
+Attaching Please wait=Присоединение пожалуйста, подождите
+No VM Selected=VM не выбран
+No USB devices=Нет устройств USB
+;
+; Help
+;
+:libvirt_hot_plug:
+> Выберите виртуальную машину для устройства USB, которое необходимо подключить/отключить, и устройство USB для выбранной VM.
+:end
