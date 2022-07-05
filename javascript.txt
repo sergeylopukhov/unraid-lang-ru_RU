@@ -43,7 +43,7 @@ Updating the container=Обновление контейнера
 VNC Remote=VNC Remote
 WebUI=WebUI
 Yes, delete it=Да, удалить!
-Yes, update it=Так, обновить!
+Yes, update it=Да, обновить!
 Yes=Да
 
 ; footer messages
