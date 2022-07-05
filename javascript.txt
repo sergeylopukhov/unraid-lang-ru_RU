@@ -1,7 +1,7 @@
 also remove image=также удалить образ
 Apply=Применять
 Are you sure=Ты уверен?
-Cancel=Аннулировать
+Cancel=Отмена
 checking=проверка
 Completely REMOVE=Полностью удалит
 Console=Консоль
