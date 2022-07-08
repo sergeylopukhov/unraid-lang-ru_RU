@@ -1,7 +1,7 @@
 Access Mode=Режим доступа
 Add another Path, Port, Variable, Label or Device=Добавьте другой путь, порт, переменную, метку или устройство
 Add Configuration=Добавить конфигурацию
-Add=Додать
+Add=Добавить
 Additional Requirements=Дополнительные требования
 Always=Всегда
 App to Host=Приложение на хост
