@@ -1,32 +1,32 @@
 :main_array_devices_help:
-**Colored Status Indicator** the significance of the color indicator at the beginning of each line in *Array Devices* is as follows:
+**Цветной индикатор состояния** значение цветового индикатора в начале каждой строки в *Устройствах массива* выглядит следующим образом:
 
-<i class='fa fa-circle orb green-orb'></i>Normal operation, device is active.
+<i class='fa fa-circle orb green-orb'></i>Нормальная работа, устройство активно.
 
-<i class='fa fa-circle orb grey-orb'></i>Device is in standby mode (spun-down).
+<i class='fa fa-circle orb grey-orb'></i>Устройство находится в режиме ожидания (выключено).
 
-<i class='fa fa-warning orb yellow-orb'></i>Device contents emulated.
+<i class='fa fa-warning orb yellow-orb'></i>Эмулируется содержимое устройства.
 
-<i class='fa fa-times orb red-orb'></i>Device is disabled, contents emulated.
+<i class='fa fa-times orb red-orb'></i>Устройство отключено, содержимое эмулируется.
 
-<i class='fa fa-square orb blue-orb'></i>New device.
+<i class='fa fa-square orb blue-orb'></i>Новое устройство.
 
-<i class='fa fa-square orb grey-orb'></i>No device present, position is empty.
+<i class='fa fa-square orb grey-orb'></i>Устройство отсутствует, позиция пуста.
 
-**Identification** is the *signature* that uniquely identifies a storage device. The signature
-includes the device model number, serial number, linux device id, and the device size.
+**Идентификация** - это *подпись*, которая однозначно идентифицирует запоминающее устройство. Подпись
+включает в себя номер модели устройства, серийный номер, идентификатор устройства Linux и размер устройства.
 
-**Temp.** (temperature) is read directly from the device. You configure which units to use on
-the [Display Preferences](Settings/DisplaySettings) page.  We do not read the temperature of spun-down hard
-drives since this typically causes them to spin up; instead we display the `*` symbol.  We also
-display the `*` symbol for SSD and Flash devices, though sometimes these devices do report a valid
-temperature, and sometimes they return the value `0`.
+**Темп** (температура) считывается непосредственно с устройства. Вы настраиваете, какие единицы измерения использовать, на
+странице [Настройки отображения] (Настройки/Настройки отображения). Мы не считываем температуру отключенных жестких
+дисков, поскольку это обычно приводит к их раскручиванию; вместо этого мы показываем символ `*`. Мы также
+показываем символ "*" для твердотельных накопителей и флэш-накопителей, хотя иногда эти устройства сообщают о допустимой
+температуре, а иногда возвращают значение "0`.
 
-**Size, Used, Free** reports the total device size, used space, and remaining space for files.  These
-units are also configured on the [Display Preferences](Settings/DisplaySettings) page.  The
-amount of space used will be non-zero even for an empty disk due to file system overhead.
+**Размер, Использовано, свободно** сообщает об общем размере устройства, используемом пространстве и оставшемся пространстве для файлов. Эти
+устройства также настраиваются на странице [Настройки отображения](Настройки/Настройки отображения).
+Объем используемого пространства будет отличным от нуля даже для пустого диска из-за накладных расходов файловой системы.
 
-*Note: for a multi-device cache pool, this data is for the entire pool as returned by btrfs.*
+*Примечание: для пула кэша с несколькими устройствами эти данные относятся ко всему пулу, возвращаемому btrfs.*
 
 **Reads, Writes** are a count of I/O requests sent to the device I/O drivers.  These statistics may
 be cleared at any time, refer to the Array Status section below.
