@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language>
 <LanguageURL>https://github.com/sergeylopukhov/unraid-lang-ru_RU/archive/main.zip</LanguageURL>
-<LanguageDefault>true</LanguageDefault>
 <Language>Russian</Language>
 <LanguageLocal>Россия</LanguageLocal>
 <LanguagePack>ru_RU</LanguagePack>
 <Author>Сергей Лопухов</Author>
 <Name>Русский языковой пакет</Name>
 <TemplateURL>https://raw.githubusercontent.com/sergeylopukhov/unraid-lang-ru_RU/master/limetech/lang-ru_RU.xml</TemplateURL>
-<Version>2022.07.4</Version>
+<Version>2022.07.30</Version>
 <Icon>https://raw.githubusercontent.com/unraid/language-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
 <Description>
 Это Русский перевод для Unraid и поддерживаемых плагинов
