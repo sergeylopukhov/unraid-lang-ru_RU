@@ -44,7 +44,7 @@ VNC Remote=Управление по VNC
 WebUI=WebUI
 Yes, delete it=Да, удалить!
 Yes, update it=Да, обновить!
-Yes=Да
+Yes=Yes
 
 ; footer messages
 Array Copying=Копирование массива
