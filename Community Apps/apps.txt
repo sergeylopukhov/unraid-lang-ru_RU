@@ -97,15 +97,15 @@ BACK=ОБРАТНО
 
 ; Remove App from previously installed
 Delete Template=Удалить шаблон
-Yes, delete it=Так, удалите
+Yes, delete it=Да, удалить
 
 ; Uninstall popup
 Uninstall Application=Удалить Приложение
-Yes uninstall it=Так, удалите его
+Yes uninstall it=Да, удалить его
 
 ; Remove Private Application
 Remove Private Application=Удалить частное приложение
-Yes, remove it=Так, удалите
+Yes, remove it=Да, удалить
 
 ; App Pinning
 Click to pin this application=Нажмите, чтобы закрепить это приложение
@@ -120,10 +120,10 @@ Choose A Branch To Install=Выберите ветку для установки
 ; no apps selected
 Install Selected Applications=Установите выбранные приложения
 
-Yes, install it=Так, установите его
+Yes, install it=Да, установить
 
 ; Multi-install popup
-Yes, install them=Так, установить их
+Yes, install them=Да, установить их
 Cookies not enabled Plugins must be separately installed from docker applications=Файлы cookie не включены. Плагины необходимо устанавливать отдельно от программ Docker
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=Программы Docker будут установлены с использованием последнего сохраненного шаблона без ввода с вашей стороны
 Updating Support Links=Обновление ссылок поддержки
