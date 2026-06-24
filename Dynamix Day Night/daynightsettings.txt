@@ -1,0 +1,31 @@
+Automatic theming=Автоматическая смена темы
+Bing API key=Bing API ключ
+Bing=Bing
+City name=Город
+Country name=Страна
+Day theme=Дневная тема
+Geocoding service=Сервис геокодирования
+Google API key=Google API ключ
+Google=Google
+MapQuest API key=MapQuest API ключ
+MapQuest=MapQuest
+Night theme=Ночная тема
+No geographical coordinates found for the given address=Для указанного адреса географические координаты не найдены
+Please adjust=Измените
+Postal code=Почтовый индекс
+See=Посмотрите
+Street address=Улица и дом
+this site=этот сайт
+to obtain a Bing API key=чтобы получить API-ключ Bing
+to obtain a Google API key=чтобы получить API-ключ Google
+to obtain a MapQuest API key=чтобы получить API-ключ MapQuest
+
+:day_night_plug:
+> Введите адрес (улица, город, страна), чтобы рассчитать время восхода и заката для вашего местоположения.
+>
+> Сервис геокодирования преобразует адрес в географические координаты (широту и долготу).<br>
+> Чтобы использовать такой сервис, нужно зарегистрироваться у одного из доступных провайдеров и получить уникальный API-ключ.
+>
+> **Дневная** тема включается между восходом и закатом<br>
+> **Ночная** тема включается между закатом и восходом
+:end

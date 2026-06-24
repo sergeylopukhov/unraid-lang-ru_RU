@@ -1,0 +1,61 @@
+A disk must be cleared of all partitions before it can be precleared=Перед preclear с диска должны быть удалены все разделы
+Cannot Preclear=Нельзя Pre-clear
+Clear Disk=Очистить Диск
+Clear Signature=Очистить Сигнатура
+Clear Stats=Очистить статистику
+Click to show reports=Нажмите, чтобы показать отчёты
+Concurrent Sessions=Параллельные Sessions
+Cycles=Циклы
+Device Model=Устройство Модель
+Disk Log Information=Журнал информации о диске
+Disk Size=Диск Размер
+Download Logs=Скачать журналы
+Enable Testing for debugging=Включить тестирование для отладки
+Fast Post-read=Fast Post-чтение
+Firmware=Прошивка
+Fix Preclear=Исправить Pre-clear
+Identification=Идентификация
+If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=Если задан лимит очереди, все сеансы preclear сверх лимита будут приостановлены и останутся в очереди до завершения одного из сеансов
+Notifications=Уведомления
+On every cycle and step end=В конце каждого цикла и шага
+On every 25% of progress=On every 25% of ход выполнения
+On every cycle end=On every цикл end
+On preclear end=По завершении preclear
+Operation=Операция
+Post-read Verify=Post-чтение Проверить
+Preclear Disks=Pre-очистить Диски
+Preclear Disk Log=Pre-очистить Диск Журнал
+Preclear Log=Pre-очистить Журнал
+Preclear Status=Pre-очистить Статус
+Preview Progress=Предпросмотр Ход выполнения
+Read size=Чтение размер
+Remove Report=Удалить отчёт
+Resume all Sessions=Возобновить все Sessions
+Resume Preclear=Возобновить Pre-очистить
+Preview Progress Report=Предпросмотр Ход выполнения Отчёт
+Select Disks=Выбрать Диски
+Serial Number=Серийный Number
+Set Preclear Queue=Set Pre-очистить Очередь
+Show Preclear Report=Показать pre-очистить Отчёт
+Skip Pre-read=Skip Pre-чтение
+Skip Post-Read=Skip Post-Чтение
+Start Multiple Sessions=Запустить Multiple Sessions
+Start New=Запустить новый
+Start Preclear=Запустить pre-очистить
+Stop all Sessions=Остановить все Sessions
+Stop Preclear=Остановить pre-очистить
+Temp=Температура
+Testing=Тестирование
+There are no disks that can be precleared=Нет дисков, доступных для preclear
+Verify Signature=Проверить Сигнатура
+Write size=Запись размер
+You can use Unassigned Devices to clear the disk=Для очистки диска можно использовать Unassigned Devices
+
+:preclear_general_help_plug:
+> + Verify Signature - проверка сигнатуры диска.
+> + Verify Disk - проверка сигнатуры и проверка, что диск обнулён.
+> + Post-read Verify - проверка диска после чтения.
+> + Clear Signature - удаление preclear-сигнатуры с диска.
+>
+> Текст <em style='color:#00BE37;'>Precleared</em> рядом с серийным номером означает, что диск имеет preclear-сигнатуру. Он показывается только если диск прошёл preclear и Preclear Stats были удалены.
+:end

@@ -12,5 +12,3 @@ Install Application=Установка приложение
 Install Applications=Установка приложений
 Something really wrong went on during %s=Во время %s произошло что-то действительно не так
 Are you sure you want to delete %s applications from the previously installed list=Вы уверены, что хотите удалить программу %s из предустановленного списка
-
-; Note: Jule 4, 2022 - 14 missing translations

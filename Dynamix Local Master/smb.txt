@@ -1,0 +1,23 @@
+Current elected master=Текущий выбранный мастер
+is current local master browser=является текущим локальным Master Browser
+Local master=Локальный мастер
+Monitor local master election=Отслеживать выборы локального мастера
+please wait, obtaining=подождите, получаем данные
+Workgroup=Рабочая группа
+
+:smb_workgroup_plug:
+> Введите имя рабочей группы локальной сети. Обычно это "WORKGROUP".
+:end
+
+:smb_master_plug:
+> Если выбрано **Yes**, сервер будет полноценно участвовать в выборах SMB Browser и при отсутствии других серверов обычно станет локальным Master Browser.
+:end
+
+:smb_master_election_plug:
+> Включает или отключает фоновый мониторинг выборов локального Master Browser.
+> Результат мониторинга отображается в верхней правой части заголовка.
+:end
+
+:smb_master_current_plug:
+> Показывает текущий выбранный локальный Master Browser в реальном времени.
+:end

@@ -1,206 +1,203 @@
-Add ISO File Share=добавить общий доступ к файлам ISO
-Add Remote SMB=добавить удаленный SMB
-Add Root Share=Добавить Root Совместного доступ
-An XFS or BTRFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Диск XFS или BTRFS, разделен на UD, совместим с распределением дисков массива и может быть добавлен к массиву
-Any data on this disk will be lost=все данные на этом диске будут потеряны
-Are you sure=вы точно уверены
-Auto mount=автоматическое монтирование
+Add ISO File Share=Добавить общий ресурс ISO-файла
+Add Remote SMB=Добавить удалённый SMB
+Add Root Share=Добавить Root Share
+All Unassigned Devices configurations will be updated=Все конфигурации Unassigned Devices будут обновлены
+All disks will be refreshed using udev=Все диски будут обновлены через udev
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Диск XFS, BTRFS или ZFS, размеченный в UD, совместим с разметкой дисков массива и может быть добавлен в массив
+Any data on this disk will be lost=Все данные на этом диске будут потеряны
+Are you sure=Вы уверены
+Auto mount=Автомонтирование
 Back=Назад
-Browse Disk Share=
-Browse ISO File Share=
-Browse Remote SMB=
-Choose File System Format=
-Choose ISO File=
-Choose Server=
-Choose Share=
-Click on Icon to Choose Protocol=
-Change Disk Mount Point=
-Change ISO File Mount Point=
-Change Remote Share Mount Point=
-Change SMB=
-Changing the Mount Point will also change the disk label=
-Click to select ISO file=
-Click to view/hide partitions and mount points=
-Complete=
-Device=
-Disks=
-Disk Label=
-Disk Log Information=
-Disk Sharing must be disabled to add a Root Share=
-Do NOT use a remote share local mount in a Docker container or VM for critical data=
-Do not put files or folders into the /mnt/rootshare/ folder=
-Domain=
-Edit Device Script=
-Edit ISO File Script=
-Edit Remote SMB=
-Enter the Domain for the share if on a Domain=
-Enter the Password if the share is password protected=
-Enter the Username if the share is password protected=
-Enter the password to use for this disk=
-Execute Script as udev simulating a device being installed=
-Fail=
-file share for=
-File System Check=
-File System Scrub=
-Format=
-Formatting=
-Free=
-from disk=
-Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
-Historical=
-Historical Devices=
-Identification=
-If this disk was pre-cleared, you will remove the pre-clear signature=
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
-ISO File is=
-ISO File Shares=
-If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=
-Device=
-Leave blank to use the array passwordpassphrase=
-Load Shares=
-Loading=
-Log=
-Mount=
-Mount Point=
-Mounting=
-NFS Mount Point=
-NFS or ISO File Shares configured=
-NFS Script=
-NFS Share=
-NFS Shares=
-Next=
-No Remote SMB=
-No Unassigned Disks available=
-not installed=
-Note=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-Open=
-Partition and Format Disk=
-Pass Thru=
-Password=
-Read only=
-Reboot=
-Refresh Disks and Configuration=
-Remember your password It cannot be recovered=
-Remote Share is=
-Remote share mounts are dependent on a solid and reliable network connection and that is difficult to achieve=
-Remove Device configuration=
-Remove ISO File Share=
-Remove Partition=
-Remove Remote SMB=
-Remove partition=
-Running=
-Script=
-Search For Servers=
-Search for Servers, or enter the Server nameIP address manually=
-Search for Shares or enter the Share name manually=
-Searching=
-Select the Mount Point to Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
-Shares=
-Share Type=
-share for=
-Simple=
-SMB Shares=
-Source=
-SSD cannot be spun down=
-Success=
-Show Historical Devices=
-Show SMB/NFS/ISO Shares=
-Show Disk Devices=
-This is a way to gather Unraid shares into one Root Share=
-This will remove the ISO file share for=
-This will remove the remote=
-This will remove the saved configuration of=
-This will remove the=
-to confirm=
-to format=
-Unmount=
-Unmounting=
-Use caution when gathering shares into one Root Share=
-Used=
-User and Pool Shares=
-User Shares=
-Username=
-View Device Script Log=
-View ISO File Script Log=
-View Remote SMB=
-When you copy files between shares in the Root Share, the files may not end up on the expected disks=
-NFS Script Log=
-You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-You must enable the Destructive Mode in UD Settings before you can Format this disk=
-WARNING=
-You WILL have problems if you do=
-You will need to enter credentials to list the shares=
+Browse Disk Share=Просмотреть общий ресурс диска
+Browse ISO File Share=Просмотреть общий ресурс ISO-файла
+Browse Remote SMB=Просмотреть удалённый SMB
+Check the syslog for details=Подробности смотрите в syslog
+Choose File System Format=Выберите формат файловой системы
+Choose ISO File=Выберите ISO-файл
+Choose NFS Server=Выберите NFS-сервер
+Choose SMB Server=Выберите SMB-сервер
+Choose Share=Выберите общий ресурс
+Click on Icon to Choose Protocol=Нажмите значок, чтобы выбрать протокол
+Change Disk Mount Point=Изменить точку монтирования диска
+Change ISO File Mount Point=Изменить точку монтирования ISO-файла
+Change Remote Share Mount Point=Изменить точку монтирования удалённого ресурса
+Change SMB=Изменить SMB
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=Изменение точки монтирования также изменит метку всех дисков и имя пула на ZFS-диске
+Clear=Очистить
+Click to select ISO file=Нажмите, чтобы выбрать ISO файл
+Click to view/hide partitions and mount points=Нажмите, чтобы показать или скрыть разделы и точки монтирования
+Complete=Готово
+Device=Устройство
+Disks=Диски
+Disk Label=Метка диска
+Disk Log Information=Информация журнала диска
+Disk Sharing must be disabled to add a Root Share=Для добавления Root Share общий доступ к дискам должен быть отключён
+Do NOT use a remote share local mount in a Docker container or VM for critical data=Не используйте локальное монтирование удалённого ресурса в контейнере Docker или ВМ для критически важных данных
+Do not put files or folders into the /mnt/rootshare/ folder=Не помещайте файлы и папки в каталог /mnt/rootshare/
+Domain=Домен
+Edit Device Script=Редактировать сценарий устройства
+Edit ISO File Script=Редактировать скрипт ISO-файла
+Edit Remote SMB=Редактировать удалённый SMB
+Encrypt CIFS Mount=Шифровать CIFS-монтирование
+Enter the Domain for the share if on a Domain=Введите домен для общего ресурса, если он находится в домене
+Enter the Password if the share is password protected=Введите пароль, если общий ресурс защищён паролем
+Enter the Username if the share is password protected=Введите имя пользователя, если общий ресурс защищён паролем
+Enter the password to use for this disk=Введите пароль для этого диска
+Enter the server name and it will be added to the local DNS names and will then resolve by name=Введите имя сервера; оно будет добавлено в локальные DNS-имена и затем будет разрешаться по имени
+Exclusive Share files will not be accessible in a Root Share=Файлы эксклюзивного общего ресурса не будут доступны через Root Share
+Execute Script as udev simulating a device being installed=Выполнить скрипт как udev, имитируя подключение устройства
+Fail=Ошибка
+failed to=не удалось
+Failed to get data to refresh page=Не удалось получить данные для обновления страницы
+file share for=общий ресурс файла для
+File System Check=Проверка файловой системы
+File System Scrub=Scrub файловой системы
+Format=Формат
+Formatting=Форматирование
+Free=Свободно
+from disk=с диска
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Перейдите в «Настройки → Global Share Settings» и установите Enable Disk Shares в Auto или Off
+Historical=Историческое
+Historical Unassigned Devices=Исторические устройства Unassigned Devices
+Historical Device is=Историческое устройство:
+Identification=Идентификация
+If SMB shares do not show, check your credentials=Если SMB-ресурсы не отображаются, проверьте учётные данные
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Если после поиска в списке отображается IP-адрес сервера, DNS-сервер не разрешает его имя
+If this disk was pre-cleared, you will remove the pre-clear signature=Если диск проходил preclear, будет удалена его preclear-подпись
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Если добавить диск в массив после удаления preclear-подписи, Unraid снова выполнит длительную очистку диска
+Invalid Configuration - Remove and Re-add=Некорректная конфигурация: удалите и добавьте заново
+is offline=не в сети
+ISO File is=ISO-файл:
+ISO File Shares=Общие ресурсы ISO-файлов
+If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Если используется пароль диска, обязательно укажите его в настройках UD, чтобы диск можно было смонтировать
+Leave blank to use the array passwordpassphrase=Оставьте пустым, чтобы использовать пароль/фразу-пароль массива
+Load Shares=Загрузить общие ресурсы
+Loading=Загрузка
+Log=Журнал
+Mount=Монтировать
+Mount Point=Точка монтирования
+Mounting=Монтирование
+Next=Далее
+NFS Mount Point=Точка монтирования NFS
+NFS or ISO File Shares configured=Настроены общие ресурсы NFS или ISO-файлов
+NFS Script=Скрипт NFS
+NFS Share=Общий ресурс NFS
+NFS Shares=Общие ресурсы NFS
+No Remote SMB=Нет удалённого SMB
+No script file to execute=Нет файла скрипта для выполнения
+No Unassigned Disks available=Нет доступных неназначенных дисков
+Not Enabled=Не включено
+not installed=не установлено
+Note=Примечания
+offline=не в сети
+User Shares=Пользовательские общие ресурсы
+User Shares without Pools=Пользовательские общие ресурсы без пулов
+You must enable NFS in Settings->NFS to mount NFS shares=Для монтирования NFS-ресурсов включите NFS в «Настройки → NFS»
+You must enable SMB in Settings->SMB to mount SMB shares=Для монтирования SMB-ресурсов включите SMB в «Настройки → SMB»
+Open=Открыть
+Partition=Раздел
+Partition and Format Disk=Разметить и форматировать диск
+Passed=Принято
+Passed Through=Передано напрямую
+Password=Пароль
+Pool=Пул
+Preclear=Preclear
+Read only=Только чтение
+Reboot=Перезагрузка
+Refresh Disks and Configuration=Обновить диски и конфигурацию
+Remember your password It cannot be recovered=Запомните пароль: восстановить его невозможно
+Remote Server is=Удалённый сервер:
+Remote Shares=Удалённые общие ресурсы
+Remote Shares online status will be reset=Онлайн-статус удалённых ресурсов будет сброшен
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=Монтирование удалённых ресурсов зависит от стабильного сетевого соединения, что не всегда легко обеспечить
+Remove Device configuration=Удалить конфигурацию устройства
+Remove ISO File Share=Удалить общий ресурс ISO-файла
+Remove Partition=Удалить раздел
+Remove Remote SMB=Удалить удалённый SMB
+Remove partition=Удалить раздел
+Running=Выполняется
+Script=Скрипт
+Script is already running=Скрипт уже выполняется
+Search For Servers=Искать серверы
+Script Log=Журнал скрипта
+Search for Servers, or enter the Server name or IP address manually=Ищите серверы или введите имя сервера либо IP-адрес вручную
+Search for Shares or enter the Share name manually=Ищите общие ресурсы или введите имя ресурса вручную
+Searching=Поиск
+Select the Root Share=Выберите Root Share
+Serial Number Mount Point=Серийный номер (точка монтирования)
+Shares=Общие ресурсы
+Share Type=Тип общего ресурса
+share for=общий ресурс для
+Show/Hide Historical Unassigned Devices=Показать или скрыть исторические устройства Unassigned Devices
+Show/Hide SMB/NFS/ISO Shares=Показать или скрыть общие ресурсы SMB/NFS/ISO
+Show/Hide Unassigned Disk Devices=Показать или скрыть неназначенные дисковые устройства
+Simple=Обычный
+SMB Shares=Общие ресурсы SMB
+Source=Источник
+SSD cannot be spun down=SSD нельзя остановить
+Success=Готово!
+Show Historical Devices=Показать исторические устройства
+Show SMB/NFS/ISO Shares=Показать общие ресурсы SMB/NFS/ISO
+Show Disk Devices=Показать дисковые устройства
+This is a way to gather Unraid shares into one Root Share=Так можно собрать общие ресурсы Unraid в один Root Share
+This will remove the ISO file share for=Будет удалён общий ресурс ISO-файла для
+This will remove the=Будет удалено:
+This will remove the saved configuration of=Будет удалена сохранённая конфигурация
+Timeout: Failed to get unassigned devices information - check the syslog=Тайм-аут: не удалось получить сведения о неназначенных устройствах; проверьте syslog
+to confirm=для подтверждения
+to format=для форматирования
+Unassigned Devices Settings=Параметры устройств без назначения
+Unassigned Disk Devices=Неназначенные дисковые устройства
+Unassigned Disks=Неназначенные диски
+Unmount=Размонтировать
+Unmounting=Размонтирование
+Use caution when gathering shares into one Root Share=Будьте осторожны при объединении общих ресурсов в один Root Share
+Used=Использовано
+User Shares - allow access to User Shares, including Cache and Pool files=Пользовательские общие ресурсы: доступ к User Shares, включая файлы кэша и пулов
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=Пользовательские общие ресурсы без пулов: доступ к User Shares без файлов кэша и пулов в Root Share
+Username=Имя пользователя
+View Device Script Log=Показать журнал скрипта устройства
+View ISO File Script Log=Показать журнал скрипта ISO-файла
+View NFS Script Log=Показать журнал NFS-скрипта
+View SMB Script Log=Показать журнал SMB-скрипта
+WARNING=ПРЕДУПРЕЖДЕНИЕ
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=При копировании файлов между ресурсами внутри Root Share файлы могут оказаться не на ожидаемых дисках
+Working=Работает
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Открывая все общие ресурсы через один Root Share, вы также повышаете риски безопасности, например заражения ransomware
+You may need to enter credentials to list the shares=Для получения списка ресурсов может потребоваться ввести учётные данные
+You must enable the Destructive Mode in UD Settings before you can Format this disk=Чтобы форматировать этот диск, сначала включите Destructive Mode в настройках UD
+You WILL have problems if you do=Если сделать это, проблемы неизбежны
+ZFS Pool Name=Имя ZFS-пула
+ZFS Volume=Том ZFS
 
-; Help
-;
 :unassgned_devices_switches_plug:
-> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+> Включите переключатель **Disks**, чтобы показать дисковые устройства; выключите его, чтобы скрыть их.
 >
-> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+> Включите **Shares**, чтобы показать общие ресурсы; выключите, чтобы скрыть.
 >
-> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
->
-> Click on the <i style='color:black;font-weight:bold;' class="fa fa-refresh"></i> icon to refresh disks and configuration.
->
-> Click on the <i style='color:black;font-weight:bold;' class="fa fa-gear"></i> icon to go to the UD Settings.
->
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator. Applies to version 6.9 RC2 and later only.
+> Включите **Historical**, чтобы показать исторические дисковые устройства; выключите, чтобы вернуться к обычному виду.
 :end
 
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **Unassigned Devices сокращённо называется UD.**
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
-> After entering a mount point, press &lt;Enter&gt; to save the change.
+> Наведите курсор на активную область страницы UD, чтобы увидеть подсказку о действии.
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> UD умеет монтировать USB-устройства, SATA-диски, удалённые SMB/NFS-ресурсы и ISO-файлы. Устройства с включённым automount будут смонтированы при запуске массива; при остановке массива все диски и SMB/NFS-монтирования размонтируются.
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> Для публикации устройства включите переключатель Share. Для Remote SMB по умолчанию используется Public read/write. SMB Security и NFS Export настраиваются в Unassigned Devices Settings.
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> После ввода точки монтирования нажмите &lt;Enter&gt;, чтобы сохранить изменение. Настройки безопасности 'Settings->Unassigned Devices' для SMB и NFS должны быть корректными.
 >
-> The 'Add Root Share' button is disabled when 'Enable disk shares' is enabled and any Root Shares previously added will not mount.
+> Если кнопка монтирования удалённого SMB/NFS-ресурса неактивна, удалённый сервер не отвечает на ping, и UD считает его offline.
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> Кнопка 'Add Root Share' отключена, когда включены общие ресурсы дисков; ранее добавленные корневые ресурсы монтироваться не будут.
 >
-> **To format a disk:**
+> Режим разрушительных операций позволяет удалять разделы и форматировать диски. Если он не включён в настройках UD, форматирование и удаление разделов недоступны.
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed.  Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon,, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precelared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> Для форматирования диска включите режим разрушительных операций, удалите все разделы, затем выполните форматирование. Диски XFS, XFS encrypted, BTRFS, BTRFS encrypted, ZFS и ZFS encrypted, размеченные в UD, совместимы с разметкой массива.
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array.  Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> Зашифрованные диски используют пароль/фразу-пароль массива либо отдельный пароль, заданный при форматировании. Для дисков с отдельным паролем укажите пароль в Unassigned Devices->Settings.
 >
-> **Encrypted Disks:**
->
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
->
-> **Unassigned devices script:**
->
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
->
-> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount device sdX where 'X' is the device designator.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to mount.
-> + '/usr/local/sbin/rc.unassigned mount name=diskname' - mount device by disk name.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount device sdX where 'X' is the device designator. The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to unmount. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned umount name=diskname' - unmount device by disk name.
-> + '/usr/local/sbin/rc.unassigned spindown devX' - spin down a disk.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to spin down.  SSDs will not spin down.
-> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down a disk by disk name.
-> + '/usr/local/sbin/rc.unassigned mount SOURCE' - where SOURCE is the SMB/NFS source.
-> + '/usr/local/sbin/rc.unassigned umount SOURCE' - where SOURCE is the SMB/NFS source.
->
-> Be careful using the /dev/sdX designation because it can change after a reboot.
+> UD включает скрипт /usr/local/sbin/rc.unassigned для монтирования, размонтирования, остановки и отсоединения устройств из командной строки или пользовательских скриптов. Предпочитайте имена, переданные в UD script, потому что /dev/sdX и devX могут измениться после перезагрузки.
 :end
-
-; Note: June 19, 2022 - 136 missing translations

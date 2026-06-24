@@ -1,0 +1,5 @@
+Not available=Недоступно
+P + Q algorithm=Алгоритм P + Q
+System Overview=Обзор системы
+Unraid server=Unraid сервер
+Unraid system=Unraid система

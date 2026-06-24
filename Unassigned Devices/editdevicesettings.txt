@@ -1,0 +1,102 @@
+Abort Device Script=Прервать скрипт устройства
+Attach=Прикрепить
+Attach This Disk=Подключить этот диск
+Attaching=Подключение
+Automount=Автомонтирование
+Click to select file or click Default button for the Device Script File=Выберите файл или нажмите «По умолчанию» для файла скрипта устройства
+Default=По умолчанию
+Delete Device Script File=Удалить файл сценария устройства
+Detach=Отсоединить
+Detach This Disk=Отсоединить этот диск
+Detaching=Отключение
+Device Script=Скрипт устройства
+Device Script content=Содержимое сценария устройства
+Disable Mount and Unmount Button=Отключить кнопки монтирования и размонтирования
+Disable Mount Button=Отключить кнопку монтирования
+Disk Name=Имя диска
+Disk Serial=Серийный номер диска
+Edit Device Script=Редактировать сценарий устройства
+Enter Device Script File Name=Введите имя файла сценария устройства
+Enter and Edit the Device Script that runs when a udev or operator event occurs=Введите и отредактируйте скрипт устройства, который запускается при событии udev или действии оператора
+Enter the User Script File Name=Введите имя файла пользовательского скрипта
+Enter the User Script that will be using this device=Введите сценарий пользователя, который будет использовать это устройство
+Enter the volume to mount on this apfs partition=Введите том для монтирования на этом APFS-разделе
+Load the default Device Script=Загрузить скрипт устройства по умолчанию
+Run in background=Запуск в фоновом режиме
+Mark this Device as passed through to a VM or Docker=Отметить устройство как переданное в ВМ или Docker
+Mount Device Read only=Монтировать устройство только для чтения
+Mount Device when Plugged in or Array is Started=Монтировать устройство при подключении или запуске массива
+Mount ISO File when Array is Started=Подключить файл ISO при запуске массива
+Mount Point=Точка монтирования
+Mount Remote Share Read only=Монтировать удалённый ресурс только для чтения
+Mount Remote SMB or NFS Share when Array is Started=Монтировать удалённый SMB- или NFS-ресурс при запуске массива
+Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=Примечание: чтобы открыть доступ к устройству, включите SMB Sharing или NFS Export в настройках Unassigned Devices
+Passed Through=Передано напрямую
+Read Only=Только чтение
+Run Device Script File in the background=Запускать файл скрипта устройства в фоне
+Save your Device Script File=Сохранить файл скрипта устройства
+Save your Device Script File changes=Сохранить изменения файла сценария устройства
+Share Device with SMB and NFS=Открыть доступ к устройству по SMB и NFS
+Share Remote Mount with SMB and NFS=Открыть доступ к удалённому монтированию по SMB и NFS
+Show all partitions on this device by default=По умолчанию показывать все разделы этого устройства
+Show Partitions=Показать разделы
+Source=Источник
+Unassigned Devices Settings=Параметры устройств без назначения
+Undo your changes since last Save=Отменить изменения после последнего сохранения
+User Script=Пользовательский скрипт
+Volume=Том
+ZFS Volume=ZFS Том
+
+;
+; Help
+;
+:ud_edit_script_device_settings_plug:
+> Выберите параметры для этого устройства и точки монтирования.
+:end
+
+:ud_edit_script_detach_plug:
+> Нажмите **Detach**, чтобы отсоединить устройство. После этого оно появится в Historical Devices и сможет быть подключено обратно из настроек устройства.
+:end
+
+:ud_edit_script_attach_plug:
+> Нажмите **Attach**, чтобы подключить отсоединённое устройство. Оно будет обработано как только что установленное и автоматически смонтируется, если включён Auto Mount. Появление устройства в UD может занять некоторое время.
+:end
+
+:ud_edit_script_abort_plug:
+> Нажмите **Abort**, чтобы прервать device script, user script и завершить все процессы, работающие в точке монтирования.
+:end
+
+:ud_disk_name_plug:
+> Введите alias для устройства. Это имя будет использоваться для обращения к диску. Если оставить поле пустым, будет назначено имя 'devX'.
+>
+> **Name:** максимум 8 символов; пробелы заменяются на '_'; допускается минимум специальных символов; регистр учитывается.
+>
+> **Примечание:** имя не может начинаться с "dev", это зарезервировано для устройств 'devX'.
+:end
+
+:ud_edit_script_choose_name_plug:
+> Это файл скрипта, который запускается при монтировании устройства. Выберите имя файла скрипта из выпадающего списка или введите нужный скрипт.
+:end
+
+:ud_edit_user_script_choose_name_plug:
+> Если установлен плагин User Scripts, Unassigned Devices может показывать состояние выполнения User Script, который использует это устройство.
+> Поле доступно только если существует Device Script File.
+:end
+
+:ud_edit_script_run_background_plug:
+> Установите **Yes**, чтобы Device Script выполнялся в фоне. Это помогает избежать зависания UI Unassigned Devices при запуске скрипта из интерфейса.
+:end
+
+:ud_edit_script_buttons_plug:
+> Нажмите **Default**, чтобы заполнить редактор стандартным Device Script. Чтобы применить изменение, всё равно нужно нажать **Save**.
+>
+> Нажмите **Save**, чтобы сохранить файл Device Script.
+>
+> Нажмите **Delete**, чтобы удалить файл Device Script.
+>
+> Нажмите **Reset**, чтобы отменить изменения до сохранения.
+>
+> Нажмите **Apply**, чтобы применить текущие правки.
+>
+> Нажмите **Done**, чтобы выйти со страницы.
+:end

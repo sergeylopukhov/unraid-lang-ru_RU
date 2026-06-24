@@ -1,0 +1,10 @@
+Click DETECT=Нажмите DETECT
+Detect=Обнаружить
+Exclude drives=Исключить диски
+Fan control function=Вентилятор управление функция
+High temperature threshold=Высокий температура порог
+Low temperature threshold=Низкий температура порог
+Minimum PWM value=Минимальное значение PWM
+PWM controller=PWM-контроллер
+PWM fan=PWM вентилятор
+Refresh interval=Интервал обновления

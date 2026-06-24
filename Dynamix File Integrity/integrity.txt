@@ -1,0 +1,5 @@
+Aborted - export file not found=Прервано: файл экспорта не найден
+Import=Импорт
+Build up-to-date=Сборка актуальна
+Export up-to-date=Экспорт актуален
+Operation aborted=Операция прервано

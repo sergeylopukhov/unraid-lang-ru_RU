@@ -1,0 +1,10 @@
+Cannot determine file system on an encrypted disk=Не удалось определить файловую систему на зашифрованном диске
+Dirty log detected=Обнаружен незавершённый журнал
+Executing file system check=Выполняется проверка файловой системы
+Executing file system scrub=Выполняется scrub файловой системы
+File system corruption detected=Обнаружено повреждение файловой системы
+File system corruption fixed=Повреждение файловой системы исправлено
+Force Log Zeroing=Принудительное обнуление журнала
+No file system corruption detected=Повреждений файловой системы не обнаружено
+Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=Примечание: это связано с некоторым риском, но если сначала смонтировать файловую систему для очистки журнала невозможно, обнуление остаётся единственным вариантом ремонта; в большинстве случаев оно приводит к минимальной потере данных или обходится без неё
+Run with Correct flag=Запустить с флагом Correct

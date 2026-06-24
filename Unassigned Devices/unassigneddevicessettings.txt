@@ -1,129 +1,171 @@
-Add=
-Auto Mount USB Devices=
-Change Disk UUID=
-Change UUID=
-Change the disk UUID=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enter Disk Password=
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
-Rule=
-SMB Security=
-Select Disk=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-to SMB share config=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Use only when directed for support=
+Add=Добавить
+Auto Mount USB Devices=Автоматически монтировать USB-устройства
+Case-sensitive names=Имена с учетом регистра
+Change Disk UUID=Изменить UUID диска
+Change UUID=Изменить UUID
+Command times=Время выполнения команд
+Common Script=Общий скрипт
+Common Settings=Общие настройки
+Destructive Mode=Режим разрушительных операций
+Disabled=Отключено
+Disk spin down is managed by Unraid=Остановкой дисков управляет Unraid
+Enable NFS export=Включить экспорт NFS
+Enable SMB Security=Включить безопасность SMB
+Enable Time Machine=Включить Time Machine
+Enter Disk Password=Введите пароль диска
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Введите имя или IP-адрес удалённого сервера; результаты проверки будут показаны в поле **Result**
+Enter Pool Mount Point=Введите точку монтирования пула
+Legacy Mount Point Compatibility=Совместимость со старыми точками монтирования
+Mount SSDs with discard option=Монтировать SSD с параметром discard
+NFS Security=Безопасность NFS
+NFS Settings=NFS Настройки
+NFS must be enabled in Settings->NFS to enable NFS Export=Для включения NFS Export сначала включите NFS в «Настройки → NFS»
+NFS Version to use when Mounting Remote Shares=Версия NFS для монтирования удалённых ресурсов
+Public=Публичный
+Private=Частный
+Private Hidden=Приватный скрытый
+Refresh and Update=Обновить и применить
+Remote Share Mount Wait Time=Время ожидания монтирования удалённого ресурса
+Rule=Правило
+Select Disk=Выбрать Диск
+See Help=См. справку
+Set Encrypted Disk Password=Установить пароль зашифрованного диска
+Set Password=Установить пароль
+Set Pool Mount Point=Установить точку монтирования пула
+Set the Pool Mount Point for this disk=Установить точку монтирования пула для этого диска
+Set the disk Password=Установить пароль диска
+SMB Settings=Настройки SMB
+SMB Sharing=Общий доступ SMB
+Specify SMB Version when Mounting Remote Shares=Указать версию SMB для монтирования удалённых ресурсов
+Spin down disks=Останавливать диски
+Test=Тест
+Testing=Тестирование
+Test the Remote Server=Проверить удалённый сервер
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Для включения режима разрушительных операций должен быть установлен плагин Unassigned Devices Plus
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Этот инструмент помогает диагностировать способность удалённого сервера отдавать SMB- и NFS-ресурсы
+Time Machine volume size limit=Ограничение на размер тома машины времени
+to SMB share config=в конфигурацию SMB-ресурса
+Udev and Hotplug=Udev и Hotplug
+Unassigned Devices=Неназначенные устройства
+Unraid 6.10 or later is required for NFSv4 support=Для поддержки NFSv4 требуется Unraid 6.10 или новее
+Upgrade ZFS Pool=Обновить ZFS-пул
+Use only when directed for support because the messages can flood the log=Используйте только по указанию поддержки: сообщения могут переполнить журнал
+Warning=Предупреждение
+Windows may require a valid User to be defined even for Public shares=Windows может требовать существующего пользователя даже для публичных ресурсов
+Working=Работает
 
 ; Help
 ;
 :ud_settings_plus_plug:
-> **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
+> **Примечание:** для монтирования HFS+ и exFAT, а также для включения режима разрушительных операций должен быть установлен плагин **Unassigned Devices Plus**.
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script.  The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> Общий скрипт запускается при событиях udev и hotplug для устройств Unassigned Devices.
 :end
 
 :ud_settings_destructive_plug:
-> If enabled, this will allow you to erase and format partitions using Unassigned Devices. This cannot be enabled unless the 'Unassigned Devices Plus' plugin is installed.
+> Если включено, Unassigned Devices сможет стирать и форматировать разделы. Параметр нельзя включить без плагина **Unassigned Devices Plus**.
 :end
 
 :ud_settings_mount_usb_devices_plug:
-> When set to **Yes**, will auto mount a new USB device and share it without user intervention.
+> Если выбрано **Yes**, новое USB-устройство будет автоматически смонтировано и опубликовано без участия пользователя.
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option.  If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
+> Если выбрано **Yes**, SSD будут монтироваться с параметром discard, когда файловая система это поддерживает.
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> Установите **Yes**, чтобы создать symlink для /mnt/remotes/ в /mnt/disks/.
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> Это нужно для обратной совместимости привязок VM и Docker Container к точке монтирования /mnt/disks/.
+> Рекомендуется изменить привязки на точку монтирования /mnt/remotes/.
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> Если обратная совместимость не нужна, оставьте **No**.
+:end
+
+:ud_settings_remote_share_wait_plug:
+> Время ожидания в секундах перед монтированием удалённых общих ресурсов при первом запуске массива.
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
+> Установите **No**, чтобы Unassigned Devices сначала пробовал монтировать удалённые SMB-ресурсы без указания версии SMB.
 >
-> Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
+> Установите **Yes**, чтобы Unassigned Devices монтировал удалённые SMB-ресурсы только с явно заданной версией SMB.
 >
-> Some remote servers need to have the version specified.
+> Для некоторых удалённых серверов версию нужно указывать явно.
 :end
 
 :ud_settings_debug_level_plug:
-> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.
+> Debug Log Level добавляет подробное журналирование в выбранных областях UD для диагностики.
 >
-> Set to **None** to turn off debug logging.
+> **None** отключает отладочные журналы. **Udev and Hotplug** включает диагностику udev, обнаружения дисков и hotplug. **Refresh and Update** помогает искать зависания UD. **Command times** показывает время выполнения команд и пишет очень много сообщений.
 >
-> Set the Debug Log Level to a numeric value to debug a specific area of UD.
->
-> **Note:** Don't leave the Debug Log Level on for extended periods of time.  It can add a lot of log messages to the syslog.
+> Не оставляйте Debug Log Level включённым надолго: он может быстро заполнить syslog.
 :end
 
 :ud_settings_specify_nfs_vers_plug:
-> Set to **NFSv3** to mount all NFS Remote Shares with NFSv3.
+> **Auto** монтирует все удалённые NFS-ресурсы с автоматическим выбором версии NFS.
 >
-> Set to **NFSv4** to mount all NFS Remote Shares with NFSv4.
->
-> All NFS remote shares will be mounted with the specified version.
+> Если **Auto** не работает или монтирует только NFSv3, используйте **NFSv4**, потому что ваша версия Unraid может не согласовывать NFSv4 автоматически.
 :end
 
 :ud_settings_smb_security_plug:
-> Set the user level of SMB Security.
+> Уровень SMB Sharing:
 >
-> + Set to **Yes** to enable SMB Security on SMB shares.  Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Hidden** to enable SMB Security on SMB shares that will not be visible.  Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **No** will share devices, SMB/NFS, and iso Mounts Public with read and write access.
+> + **Disabled** отключает общий доступ SMB.
+> + **Public** публикует устройства, Remote SMB/NFS-ресурсы и ISO mounts с доступом на чтение и запись.
+> + **Private** включает SMB Security и позволяет задавать доступ по пользователям.
+> + **Private Hidden** включает SMB Security для скрытых SMB-ресурсов.
+>
+> Windows Server Signing: если SMB-ресурсы не открываются в Windows 11 24H2 или новее, создайте в Unraid пользователя с паролем и тем же именем, что у учётной записи Windows, либо настройте Windows credentials вручную.
 :end
 
 :ud_settings_case_sensitive_plug:
-> Controls whether filenames are case-sensitive.
->
-> The default setting of **Auto** allows clients that support case sensitive filenames (Linux CIFSVFS) to tell the Samba server on a per-packet basis that they wish to access the file system in a case-sensitive manner (to support UNIX case sensitive semantics). No Windows system supports case-sensitive filenames so setting this option to auto is the same as setting it to No for them; however, the case of filenames passed by a Windows client will be preserved. This setting can result in reduced performance with very large directories because Samba must do a filename search and match on passed names.
->
-> A setting of **Yes** means that files are created with the case that the client passes, and only accessible using this same case. This will speed very large directory access, but some Windows applications may not function properly with this setting. For example, if "MyFile" is created but a Windows app attempts to open "MYFILE" (which is permitted in Windows), it will not be found.
->
-> A value of **Forced lower** is special: the case of all incoming client filenames, not just new filenames, will be set to lower-case. In other words, no matter what mixed case name is created on the Windows side, it will be stored and accessed in all lower-case. This ensures all Windows apps will properly find any file regardless of case, but case will not be preserved in folder listings.
+> Включает или отключает чувствительность к регистру для имён, где это поддерживается.
+:end
+
+:ud_time_machine_plug:
+> Установите **Yes**, чтобы включить настройки Time Machine для SMB-ресурсов.
+:end
+
+:ud_time_machine_vol_size_plug:
+> Ограничивает отображаемый размер тома, чтобы Time Machine не использовала всё реальное место на диске для резервной копии. Например, значение "1024" ограничит отображаемый размер до 1 ГБ.
 :end
 
 :ud_settings_force_user_plug:
-> There are times when permissions on SMB shares aren't handled as expected.  Turning this feature on can help with those permissions.
-> This applies to all devices mounted with Unassigned Devices.
-> The down side is that it overrides Linux group permissions.  If you are unsure about whether or not this is necessary, leave it enabled.
+> Иногда права на SMB-ресурсах обрабатываются не так, как ожидается. Эта функция может помочь с такими правами.
+>
+> Она применяется ко всем устройствам, смонтированным через Unassigned Devices. Недостаток: переопределяются групповые права Linux. Если не уверены, оставьте выключенной.
 :end
 
-:ud_settings_nfs_shares_plug:
-> Set to **Yes** to export NFS shares.  Shares are exported Public with read and write access or Private with the rule you set.  Access is controlled with permission settings on files and folders.
+:ud_settings_nfs_security_plug:
+> Установите **Yes**, чтобы экспортировать Unassigned Devices через NFS. Общие ресурсы экспортируются как Public с чтением и записью или как Private с заданным правилом. Доступ управляется правами файлов и папок.
+:end
+
+:ud_settings_nfs_rules_plug:
+> **Примечание:** обычное правило UD: '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'. Меняйте правила NFS только если понимаете требования клиентов и последствия для доступа.
 :end
 
 :ud_settings_disk_pass_plug:
-> Select the disk that you want to set a Password.  This is the password for this disk only and does not affect the array password/passphrase.  Leave password blank to use the array password/passphrase.
+> Укажите пароль зашифрованного диска. Оставьте пустым, чтобы использовать пароль/парольную фразу массива.
 :end
 
 :ud_settings_change_uuid_plug:
-> Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
+> Выберите диск, UUID которого нужно изменить. Это полезно, когда XFS-диск удалён из массива и имеет тот же UUID, что диск массива.
+>
+> Диск должен быть размонтирован. **Примечание:** не меняйте UUID диска, входящего в пул.
 :end
 
-; Note: June 6, 2022 - 34 missing translations
+:ud_settings_zfs_upgrade_plug:
+> Выберите диск, который нужно обновить до последней версии ZFS. Для обновления ZFS Pool диск должен быть смонтирован.
+:end
+
+:ud_remote_server_test_plug:
+> На удалённых серверах должны быть включены SMB и/или NFS. Проверка убеждается, что соответствующие порты открыты, а команда 'showmount -e <server>' в Unraid показывает доступные NFS mounts.
+>
+> Для статуса SMB online у удалённого сервера должен быть открыт SMB-порт. Для NFS online должен быть открыт NFS-порт и 'showmount -e' должен показывать NFS-ресурсы.
+>
+> Если порт открыт, но 'showmount -e' не показывает NFS shares, NFS работать не будет. Для Synology и похожих серверов это обычно означает ошибку экспорта или прав доступа.
+:end

@@ -1,129 +1,111 @@
-Age Days=
-Array=
-Array is stopped=
-Browse the Share Recycle Bin=
-Deleted Files=
-Deleted Files Log=
-Empty=
-Empty the=
-Empty All Trash=
-Empty Trash=
-Enable on Unassigned Devices=
-Enable Recycle Bin=
-Excluded Directories=
-Excluded Files=
-Excluded Shares=
-Log Deleted Files=
-Recycle Bin=
-Recycle Bin is empty=
-Recycle Bin Log=
-Recycle Bin parameters=
-Recycle Bin permissions=
-Recycle Bin Total Size=
-Refresh the Recycle Bin page=
-Remove Aged Files=
-Remove aged files from the Recycle Bin=
-Remove Aged Files Notification=
-Remove Aged Files on Schedule=
-Remove all files from the Recycle Bin=
-Restart the Recycle Bin=
-Share Type=
-SMB Share=
-Start the Recycle Bin=
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
-Stop the Recycle Bin=
-These actions apply to all shares=
-Trash Size=
-Update Recycle Bin Size in Background=
+Age Days=Возраст Дни
+Array=Массив
+Array is stopped=Массив остановлен
+Browse the Share Recycle Bin=Просмотреть корзину общего ресурса
+Deleted Files=Удалённые файлы
+Deleted Files Log=Удалённые Файлы Журнал
+Empty=Очистить
+Empty the=Очистить
+Empty All Trash=Очистить Все Корзина
+Empty Trash=Очистить Корзина
+Enable Empty All Trash Button=Включить 'Empty Все Trash' кнопка
+Enable Empty Share Trash Button=Включить 'Empty Общий ресурс Trash' кнопка
+Enable on Unassigned Devices=Включить on 'Unassigned Devices'
+Enable Recycle Bin=Включить корзина Bin
+Enable Remove Aged Files Button=Показывать кнопку удаления устаревших файлов
+Excluded Directories=Исключённые Каталоги
+Excluded Files=Исключённые Файлы
+Excluded Shares=Исключённые Общие ресурсы
+Log Deleted Files=Журнал Удалённые Файлы
+Recycle Bin=Корзина Bin
+Recycle Bin is empty=Корзина пуста
+Recycle Bin Log=Корзина Bin Журнал
+Recycle Bin parameters=Корзина Bin parameters
+Recycle Bin permissions=Корзина Bin права
+Recycle Bin Total Size=Корзина Bin Total Размер
+Refresh the Recycle Bin page=Обновить страницу корзины
+Remove Aged Files=Удалить aged Файлы
+Remove aged files from the Recycle Bin=Удалить устаревшие файлы из корзины
+Remove Aged Files Notification=emove Aged Файлы Notification
+Remove Aged Files on Schedule=Удалить aged Файлы on Расписание
+Remove all files from the Recycle Bin=Удалить все файлы из корзины
+Restart the Recycle Bin=Перезапустить корзину
+Share Type=Общий ресурс Тип
+SMB Share=SMB Общий ресурс
+Start the Recycle Bin=Запустить корзину
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=Запуск и остановка корзины могут на короткое время отключить SMB-ресурсы.
+Stop the Recycle Bin=Остановить корзину
+These actions apply to all shares=Эти действия применяются ко всем общим ресурсам
+Trash Size=Корзина Размер
+Update Recycle Bin Size in Background=Обновить Корзина Bin Размер in Background
 ;
 ; Help
 ;
 :recycle_bin_shares_plug:
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period.
-These actions apply to all shares:
-> Recycle Bin Shares:
->
-> The shares with Recycle Bin contents will be displayed along with the size of the share's Trash Bin.
-> Click on the <strong>Browse</strong> icon to browse the deleted files in that share.
-> Click on the <strong>Empty</strong> button to remove the deleted files.
->
-> Unassigned Devices shares will only show if the Recycle Bin is enabled for Unassigned Devices and there are Unassigned Devices that are mounted and shared and have Recycle Bin contents.
->
-> Click on the 'SMB Share', 'Share Type', or 'Trash Size' columns of the table header and the contents will be sorted.  The 'Trash Size' is an alpha numeric and not a numeric sort.
+> Выберите общие ресурсы, для которых будет работать Recycle Bin. Настройки применяются к удалённым файлам внутри выбранных SMB-ресурсов.
 :end
 
 :recycle_bin_enable_plug:
-> Set to 'Yes' to enable the Recycle Bin functionality for deleted files when the server is started.
+> Установите **Yes**, чтобы при запуске сервера включать Recycle Bin для удалённых файлов.
 >
-> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
+> Чтобы скрыть папку Recycle Bin, включите параметр `Hide Dot Files` в настройках SMB.
+:end
+
+:recycle_bin_hide_folder_plug:
+> Чтобы скрыть папку Recycle Bin, включите параметр `Hide Dot Files` в настройках SMB.
 :end
 
 :recycle_bin_background_plug:
-> Set to 'Yes' to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
+> Запускает операции очистки в фоне, чтобы страница Recycle Bin не зависала на больших объёмах удалённых файлов.
 :end
 
 :recycle_bin_ud_plug:
-> Set to 'Yes' to enable the Recycle Bin deleted file functionality on Unassigned Devices drive shares when the Unassigned Devices plugin is installed.  SMB/NFS mounts and iso mounts are excluded from the Recycle Bin functionality on this server.  Enable the Recycle Bin on the remote server where the remote share originates if it is an Unraid server.
+> Включает работу Recycle Bin для устройств Unassigned Devices, если они опубликованы по SMB и поддерживают нужные параметры.
 :end
 
 :recycle_bin_parameters_plug:
-> Additional parameters for Recycle Bin.  The following are some options you can set to control the file structure of the deleted files.
-> Enter the parameters in a list with no spaces or commas between them.
-> The order of the parameters will affect the file structure in the Recycle Bin.
-> Leaving this field blank will put all deleted files in the Recycle Bin without any path information.
->
-> Hint: Use the '/' for more control of the directory structure in the Recycle Bin.
-> For example '%m/%S' will organize the deleted files by the machine name that deleted the file and then the share name structure.
->
-> + '%S' Samba share name (which in Unraid equals the share name), eg. Storage
-> + '%P' User share full path, eg /mnt/user/Storage, /mnt/disk1, /mnt/disks/unassigned_device, /flash
-> + '%u' Username of the current service, if any
-> + '%m' Machine name of the user who deleted the file
+> Дополнительные параметры Recycle Bin передаются в конфигурацию Samba. Меняйте их только если понимаете синтаксис vfs_recycle и последствия для удаления файлов.
 :end
 
 :recycle_bin_permissions_plug:
-> Set the directory and sub-directory permissions of the Recycle Bin.  Set permissions to 07xx for the Recycle Bin to operate properly.  Don't change this from the default if you don't know how to use permissions.
+> Управляет правами создаваемых папок и файлов Recycle Bin. Настройка нужна, если пользователи не видят или не могут очищать свои удалённые файлы.
 :end
 
 :recycle_bin_excluded_files_plug:
-> List of files to exclude from the Recycle Bin separated by commas.  Wild cards '*' and '?' are allowed.
+> Список файлов, которые не будут попадать в Recycle Bin. Указывайте шаблоны по одному на строку или через поддерживаемый формат Samba.
 :end
 
 :recycle_bin_excluded_dirs_plug:
-> List of directories to exclude from the Recycle Bin separated by commas.  To specify a particular share directory, use 'share/directory'.  Unassigned Devices are specified the same way using 'mountpoint/directory'.  Wild cards '*' and '?' are allowed in the directory name.
+> Список каталогов, исключённых из Recycle Bin. Файлы, удалённые из этих каталогов, будут удаляться сразу.
 :end
 
 :recycle_bin_excluded_shares_plug:
-> List of shares to exclude from the Recycle Bin separated by commas.  This list can include Unassigned Devices shares.  The share name is case sensitive.
+> Список общих ресурсов, исключённых из Recycle Bin.
 >
-> The excluded share can include part of a share name and will exclude all shares with the excluded share text in the actual share name.  If you want an exact match, use the full share name.
+> Например, 'Squidbait' исключит все ресурсы, созданные плагином Ransom Ware.
 >
-> For example: 'Squidbait' (without quotes) will exclude all shares created by the Ransom Ware plugin.
->
-> Note: Excluding a share only excludes it from deleted files going to the .Recycle.Bin folder on the share.  Files in the existing .Recycle.Bin folder will still show in the total size and on the 'Shares' tab.
+> Примечание: исключение ресурса не удаляет уже существующие файлы в .Recycle.Bin; они всё ещё будут учитываться в размере и отображаться на вкладке 'Shares'.
 :end
 
 :recycle_bin_age_day_plug:
-> Any files older than the set number of days are removed on the schedule or when the 'Remove Aged Files' button is clicked.
+> Файлы старше заданного количества дней удаляются по расписанию или при нажатии кнопки **Remove Aged Files**.
 :end
 
 :recycle_bin_remove_age_files_plug:
-> Set the desired schedule to remove aged files.  Hourly will be on the hour every hour.  Daily will be every day at 3 AM.  Weekly will be every week at 3 AM on Sunday.
+> Расписание удаления устаревших файлов. Hourly выполняется каждый час ровно в начале часа, Daily - каждый день в 3:00, Weekly - каждое воскресенье в 3:00.
 :end
 
 :recycle_bin_age_files_notification_plug:
-> When set to "Yes" a notification will be sent when the scheduled remove files task runs.
+> Если выбрано **Yes**, при запуске задачи удаления старых файлов по расписанию будет отправлено уведомление.
 :end
 
 :recycle_bin_log_deleted_files_plug:
-> When set to "Yes" deleted files will be logged.
+> Если выбрано **Yes**, удалённые файлы будут записываться в журнал.
 :end
 
 :recycle_bin_show_log_plug:
-> Recycle Bin Log:
+> Журнал Recycle Bin:
 >
-> The deleted files will show in the log as unlinked files.
-> Click on the 'Clear' button to clear the log.
+> Удалённые файлы отображаются в журнале как unlinked files.
+> Нажмите **Clear**, чтобы очистить журнал.
 :end
-
-; Note: June 6, 2022 - 37 missing translations

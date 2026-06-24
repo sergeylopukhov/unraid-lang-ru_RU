@@ -1,0 +1,19 @@
+The author takes no responsibility if you blindly accept the folders offered to delete=Автор не несет ответственности, если вы слепо соглашаетесь удалить предложенные папки
+Docker Not Running=Docker не запущен
+Because the docker service is not currently running, this module will prompt you to delete the appdata for any/all docker applications which are installed=Поскольку служба Docker в настоящее время не запущена, этот модуль предложит вам удалить appdata для всех установленных приложений Docker
+Are You Sure=Вы уверены
+Are you sure you want to delete these folders Read this carefully as there is no recovery in the event of a mistake=Вы уверены, что хотите удалить эти папки? Внимательно прочтите, так как восстановление в случае ошибки невозможно
+Delete=Удалить
+Deleting Folders=Удаление папок
+Depending upon the size of the folders, this may take a few minutes=В зависимости от размера папок, это может занять несколько минут
+Deleted=Удалено
+The following appdata paths have been determined based upon your previously installed applications to be no longer in use Select which ones you would like to be deleted=На основе ранее установленных приложений были определены следующие пути к appdata, которые больше не используются. Выберите те, которые хотите удалить
+Модуль просматривает список ранее установленных контейнеров Docker и определяет, какие папки appdata больше не используются. Если список ранее установленных приложений был удалён через Community Applications или вручную, эти результаты не будут показаны. Иными словами, если для папки нет записи в списке ранее установленных контейнеров, удалить её предложено не будет.
+In the case of a severely misconfigured previously installed app, the entire contents of a share may be proposed for deletion. It is your responsibility to confirm the folders proposed for deletion. If you inadvertently delete a share you intended to keep due to misconfiguration, the deletion is not reversible and the plugin author assumes no responsibility=Если ранее установленное приложение было сильно неправильно настроено, к удалению **может быть предложено** всё содержимое общего ресурса. Вы сами отвечаете за проверку папок, предложенных к удалению. Если из-за неверной конфигурации вы случайно удалите общий ресурс, который хотели сохранить, отменить удаление нельзя, и автор плагина не несёт ответственности.
+Select All=Выбрать все
+Delete Selected=Удалить выбранное
+Done=Готово
+Credits=Благодарности
+For support for this plugin, visit here=Для поддержки этого плагина перейдите
+HERE=СЮДА
+Plugin Version=Версия плагина
