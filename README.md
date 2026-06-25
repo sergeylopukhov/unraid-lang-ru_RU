@@ -1,10 +1,12 @@
-# Русский языковой пакет для Unraid
+# Русский перевод Unraid — языковой пакет ru_RU
 
 [![Unraid](https://img.shields.io/badge/Unraid-7.3-orange)](https://unraid.net/)
 [![Language](https://img.shields.io/badge/lang-ru__RU-blue)](limetech/lang-ru_RU.xml)
 [![Status](https://img.shields.io/badge/status-updated-brightgreen)](#статус-перевода)
 
-Русский перевод webGUI Unraid и популярных плагинов.
+Русский языковой пакет для **Unraid OS 7.3.x**: перевод webGUI, системных разделов и популярных плагинов.
+
+Репозиторий подходит для тех, кто ищет **русский перевод Unraid**, **русификацию Unraid**, **Unraid Russian language pack**, **ru_RU localization** или способ включить русский язык в Unraid без ожидания обновления официального пакета.
 
 Перевод обновлён под ветку **Unraid OS 7.3** и синхронизирован с актуальными английскими шаблонами. Для интерфейса используется естественная русская терминология без машинных кальк: например, `Dashboard` переводится как **«дашборд»**.
 
@@ -32,6 +34,13 @@
 6. Перейдите в **Settings → Display Settings**.
 7. В поле **Language** выберите **Россия (Russian)**.
 8. Нажмите **Apply**.
+
+## Кому подойдёт
+
+- Пользователям, которым нужен русский язык в Unraid webGUI.
+- Тем, кто ищет русификацию Unraid OS 7.3.x.
+- Тем, кто хочет установить обновлённый `ru_RU` language pack напрямую по XML.
+- Тем, кто использует Community Applications, Unassigned Devices, Dynamix-плагины и хочет видеть их интерфейс на русском.
 
 ## Скриншоты установки
 
